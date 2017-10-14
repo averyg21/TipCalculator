@@ -8,6 +8,8 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.text.NumberFormat;
 
 
@@ -34,10 +36,12 @@ public class MainActivity extends AppCompatActivity {
         //get references to programmatiaclly manipulated TextViews
         amountTextView = (TextView) findViewById(R.id.amountTextView);
         percentTextView = (TextView) findViewById(R.id.percentTextView);
+        tipTextView = (TextView) findViewById(R.id.tipTextView);
+        totalTextView = (TextView) findViewById(R.id.totalTextView);
 
     }
 
-    public void checkHelp(){
-        int i = 0;
+    public void methodChecker(){
+        System.out.println("This is averyg's method");
     }
 }

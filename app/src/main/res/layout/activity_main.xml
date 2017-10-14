@@ -38,4 +38,20 @@
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="86dp" />
 
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="175dp"
+        android:layout_height="54dp"
+        android:text="Tip"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="total"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="298dp" />
+
 </android.support.constraint.ConstraintLayout>
