@@ -19,6 +19,14 @@ public class MainActivity extends AppCompatActivity {
     private static final NumberFormat percentFormat =
             NumberFormat.getPercentInstance();
 
+    private double billAmount = 0.0;
+    private double percent = 0.15;
+    private TextView amountTextView;
+    private TextView percentTextView;
+    private TextView tipTextView;
+    private TextView totalTextView;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
