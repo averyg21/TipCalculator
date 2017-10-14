@@ -33,5 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
         //get references to programmatiaclly manipulated TextViews
         amountTextView = (TextView) findViewById(R.id.amountTextView);
+        percentTextView = (TextView) findViewById(R.id.percentTextView);
+
+    }
+
+    public void checkHelp(){
+        int i = 0;
     }
 }
