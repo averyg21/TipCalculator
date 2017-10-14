@@ -1,0 +1,3 @@
+# TipCalculator
+App to calculate tips...
+Intro to android programming.
