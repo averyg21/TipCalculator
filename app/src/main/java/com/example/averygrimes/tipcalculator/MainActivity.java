@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView percentTextView;
     private TextView tipTextView;
     private TextView totalTextView;
-    private double paid;
-
+    private double one;
+    private double two;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void methodChecker(){
         System.out.println("This is averyg's method");
+    }
+
+    public void check1() {
+        System.out.println("Check1");
+    }
+
+    public void check2() {
+        System.out.println("Check2");
     }
 }
