@@ -27,9 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView percentTextView;
     private TextView tipTextView;
     private TextView totalTextView;
+    private double paid;
 
-    private String helloWolrd;
-    private String Avery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,13 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-    public String getHelloWolrd(){
-        return this.helloWolrd;
+    public void methodChecker(){
+        System.out.println("This is averyg's method");
     }
-
-    public void message(){
-        this.billAmount = 0;
-    }
-
 }
