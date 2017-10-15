@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private double one;
     private double two;
 
+    private double four;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void check2() {
         System.out.println("Check2");
+    }
       
     public void outputCheck(){
         System.out.println("output");
