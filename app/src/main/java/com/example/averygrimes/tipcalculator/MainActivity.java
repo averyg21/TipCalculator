@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView tipTextView;
     private TextView totalTextView;
 
+    private String helloWolrd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void methodChecker(){
-        System.out.println("This is averyg's method");
+
+    public String getHelloWolrd(){
+        return this.helloWolrd;
     }
+
 }
