@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView totalTextView;
 
     private String helloWolrd;
+    private String Avery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
     public String getHelloWolrd(){
         return this.helloWolrd;
+    }
+
+    public void message(){
+        this.billAmount = 0;
     }
 
 }
