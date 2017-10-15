@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final NumberFormat currencyFormat =
             NumberFormat.getCurrencyInstance();
-    private static final NumberFormat percentFormat =
-            NumberFormat.getPercentInstance();
 
     private double billAmount = 0.0;
     private double percent = 0.15;
@@ -45,5 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void methodChecker(){
         System.out.println("This is averyg's method");
+    }
+
+    public void outputCheck(){
+        System.out.println("output");
     }
 }
